@@ -1,0 +1,28 @@
+import java.util.*;
+public class Main{
+    public static void main(String[] args){
+        Scanner s = new Scanner(System.in);
+        double num1 = s.nextDouble();
+        double num2 = s.nextDouble();
+        char op = s.next().charAt(0);
+        double result = 0.0;
+        switch(op){
+            case '+':
+                result = num1+num2;
+                break;
+            case '-':
+                result = num1-num2;
+                break;
+            case '*':
+                result = num1*num2;
+                break;
+            case '/':
+                result = num1/num2;
+                break;
+            default:
+                System.out.println("Wrong Operator");
+                return;
+        }
+    System.out.println(result);
+    }
+}
