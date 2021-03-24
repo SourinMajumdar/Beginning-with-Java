@@ -1,3 +1,5 @@
+// To take a singly linked list input from the user, then enter a new node at a specific position (index) in the list and display the modified list.
+
 import java.util.Scanner;
 
 class Node {
